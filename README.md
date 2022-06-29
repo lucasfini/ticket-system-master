@@ -15,9 +15,9 @@
 
 ### Author
 
-[Vector Le](https://www.vectorle.xyz)
+Vector Le
 
 ### Edited BY
 
-[Lucas Finiello]
+Lucas Finiello
 
