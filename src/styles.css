@@ -1,0 +1,117 @@
+i {
+  margin-right: 5px;
+}
+
+body{
+  background-color:#fff;
+}
+
+td {
+  max-width: 250px;
+}
+
+.navbar {
+  padding: 15px 10px;
+  background: #70193d;
+  margin-bottom: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.nav-link {
+  outline: none;
+  color: white;
+  border:none;
+  background-color: transparent;
+  border-radius: 3px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.table-css{
+  
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 3em;
+  margin-left: 2em;
+  margin-right:2em;
+  
+}
+
+.active{
+  color: white;
+}
+
+.footer{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 15px 10px;
+}
+
+
+.nav-title{
+  color: #fff !important;
+  text-decoration: underline;
+  text-transform: uppercase;
+  
+  font-size: 2.5em;
+  font-weight: 600!important;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  padding-top: 0.4;
+  font-family: Montserrat,sans-serif!important;
+}
+
+/* ---------------------------------------------------
+  SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+
+
+.nav-names{
+  font-family: Montserrat,sans-serif!important;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+
+
+.sidebar .nav-link.active {
+ color: #fcb514;
+}
+
+.sidebar .nav-link:hover{
+  color: #fcb514;
+  border-bottom: #fcb514 2px solid;
+}
+
+/* ---------------------------------------------------
+  CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.low-priority {
+  color: green;
+}
+
+.med-priority {
+  color: darkgoldenrod;
+}
+
+.high-priority {
+  color: red;
+}
